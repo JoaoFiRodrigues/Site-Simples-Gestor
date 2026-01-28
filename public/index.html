@@ -35,13 +35,15 @@
     <!-- VIDEO -->
     <div class="hero-video">
       <video
-        src="img/video.mp4"
         autoplay
         muted
         loop
         playsinline
-        controls
-      ></video>
+        preload="metadata"
+      >
+      <source src="img/video.mp4" type="video/mp4">
+        Seu navegador não suporta vídeo.
+      </video>
     </div>
 
     <!-- CTA -->
